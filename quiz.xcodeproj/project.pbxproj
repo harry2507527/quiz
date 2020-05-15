@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E3721A0246E82D90041A774 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E37219F246E82D90041A774 /* SuccessViewController.swift */; };
+		3E3721A2246E8AB30041A774 /* DayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3721A1246E8AB30041A774 /* DayViewController.swift */; };
 		3EA36F92246E52BA003BB406 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA36F91246E52BA003BB406 /* AppDelegate.swift */; };
 		3EA36F94246E52BA003BB406 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA36F93246E52BA003BB406 /* SceneDelegate.swift */; };
-		3EA36F96246E52BA003BB406 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA36F95246E52BA003BB406 /* ViewController.swift */; };
+		3EA36F96246E52BA003BB406 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA36F95246E52BA003BB406 /* QuizViewController.swift */; };
 		3EA36F99246E52BA003BB406 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EA36F97246E52BA003BB406 /* Main.storyboard */; };
 		3EA36F9B246E52BB003BB406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EA36F9A246E52BB003BB406 /* Assets.xcassets */; };
 		3EA36F9E246E52BB003BB406 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EA36F9C246E52BB003BB406 /* LaunchScreen.storyboard */; };
+		3EA36FAD246E5E2B003BB406 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA36FAC246E5E2B003BB406 /* Book.swift */; };
+		3EA36FB3246E6793003BB406 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3EA36FB2246E6792003BB406 /* GoogleService-Info.plist */; };
+		B9396FA354336AD420C4B488 /* Pods_quiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D46C0C453F6913599AB764 /* Pods_quiz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E37219F246E82D90041A774 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		3E3721A1246E8AB30041A774 /* DayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewController.swift; sourceTree = "<group>"; };
 		3EA36F8E246E52BA003BB406 /* quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA36F91246E52BA003BB406 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EA36F93246E52BA003BB406 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3EA36F95246E52BA003BB406 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3EA36F95246E52BA003BB406 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		3EA36F98246E52BA003BB406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3EA36F9A246E52BB003BB406 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EA36F9D246E52BB003BB406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EA36F9F246E52BB003BB406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EA36FAC246E5E2B003BB406 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		3EA36FB2246E6792003BB406 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9CC0D3276F0663DBA59557B2 /* Pods-quiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quiz.release.xcconfig"; path = "Target Support Files/Pods-quiz/Pods-quiz.release.xcconfig"; sourceTree = "<group>"; };
+		BE3ADA0F960920359275C093 /* Pods-quiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quiz.debug.xcconfig"; path = "Target Support Files/Pods-quiz/Pods-quiz.debug.xcconfig"; sourceTree = "<group>"; };
+		F2D46C0C453F6913599AB764 /* Pods_quiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9396FA354336AD420C4B488 /* Pods_quiz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F0E0A81D43E12348F5B4C7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE3ADA0F960920359275C093 /* Pods-quiz.debug.xcconfig */,
+				9CC0D3276F0663DBA59557B2 /* Pods-quiz.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3EA36F85246E52BA003BB406 = {
 			isa = PBXGroup;
 			children = (
 				3EA36F90246E52BA003BB406 /* quiz */,
 				3EA36F8F246E52BA003BB406 /* Products */,
+				2F0E0A81D43E12348F5B4C7E /* Pods */,
+				5F1A454722D1C42E75D172E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +82,49 @@
 			children = (
 				3EA36F91246E52BA003BB406 /* AppDelegate.swift */,
 				3EA36F93246E52BA003BB406 /* SceneDelegate.swift */,
-				3EA36F95246E52BA003BB406 /* ViewController.swift */,
-				3EA36F97246E52BA003BB406 /* Main.storyboard */,
+				3EA36FA9246E56EA003BB406 /* Model */,
+				3EA36FA6246E54A8003BB406 /* Controller */,
+				3EA36FA5246E54A1003BB406 /* View */,
 				3EA36F9A246E52BB003BB406 /* Assets.xcassets */,
 				3EA36F9C246E52BB003BB406 /* LaunchScreen.storyboard */,
 				3EA36F9F246E52BB003BB406 /* Info.plist */,
+				3EA36FB2246E6792003BB406 /* GoogleService-Info.plist */,
 			);
 			path = quiz;
+			sourceTree = "<group>";
+		};
+		3EA36FA5246E54A1003BB406 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3EA36F97246E52BA003BB406 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3EA36FA6246E54A8003BB406 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3EA36F95246E52BA003BB406 /* QuizViewController.swift */,
+				3E37219F246E82D90041A774 /* SuccessViewController.swift */,
+				3E3721A1246E8AB30041A774 /* DayViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3EA36FA9246E56EA003BB406 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3EA36FAC246E5E2B003BB406 /* Book.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F1A454722D1C42E75D172E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2D46C0C453F6913599AB764 /* Pods_quiz.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3EA36FA2246E52BB003BB406 /* Build configuration list for PBXNativeTarget "quiz" */;
 			buildPhases = (
+				9F5AF99A604F6D9003FBFB56 /* [CP] Check Pods Manifest.lock */,
 				3EA36F8A246E52BA003BB406 /* Sources */,
 				3EA36F8B246E52BA003BB406 /* Frameworks */,
 				3EA36F8C246E52BA003BB406 /* Resources */,
+				DDAC553E1BBF37AAD47E35A0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EA36F9E246E52BB003BB406 /* LaunchScreen.storyboard in Resources */,
+				3EA36FB3246E6793003BB406 /* GoogleService-Info.plist in Resources */,
 				3EA36F9B246E52BB003BB406 /* Assets.xcassets in Resources */,
 				3EA36F99246E52BA003BB406 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +196,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9F5AF99A604F6D9003FBFB56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-quiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDAC553E1BBF37AAD47E35A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-quiz/Pods-quiz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-quiz/Pods-quiz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-quiz/Pods-quiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3EA36F8A246E52BA003BB406 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EA36F96246E52BA003BB406 /* ViewController.swift in Sources */,
+				3EA36FAD246E5E2B003BB406 /* Book.swift in Sources */,
+				3EA36F96246E52BA003BB406 /* QuizViewController.swift in Sources */,
 				3EA36F92246E52BA003BB406 /* AppDelegate.swift in Sources */,
 				3EA36F94246E52BA003BB406 /* SceneDelegate.swift in Sources */,
+				3E3721A0246E82D90041A774 /* SuccessViewController.swift in Sources */,
+				3E3721A2246E8AB30041A774 /* DayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +390,7 @@
 		};
 		3EA36FA3246E52BB003BB406 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE3ADA0F960920359275C093 /* Pods-quiz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,7 +400,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = space.harrychen.quiz;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = quiz;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,6 +408,7 @@
 		};
 		3EA36FA4246E52BB003BB406 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC0D3276F0663DBA59557B2 /* Pods-quiz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -308,7 +418,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = space.harrychen.quiz;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = quiz;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
