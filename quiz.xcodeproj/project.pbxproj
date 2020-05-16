@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3E3721A0246E82D90041A774 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E37219F246E82D90041A774 /* SuccessViewController.swift */; };
 		3E3721A2246E8AB30041A774 /* DayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3721A1246E8AB30041A774 /* DayViewController.swift */; };
+		3E3721A4246ED4930041A774 /* CourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3721A3246ED4930041A774 /* CourseViewController.swift */; };
 		3EA36F92246E52BA003BB406 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA36F91246E52BA003BB406 /* AppDelegate.swift */; };
 		3EA36F94246E52BA003BB406 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA36F93246E52BA003BB406 /* SceneDelegate.swift */; };
 		3EA36F96246E52BA003BB406 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA36F95246E52BA003BB406 /* QuizViewController.swift */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		3E37219F246E82D90041A774 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
 		3E3721A1246E8AB30041A774 /* DayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewController.swift; sourceTree = "<group>"; };
+		3E3721A3246ED4930041A774 /* CourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewController.swift; sourceTree = "<group>"; };
 		3EA36F8E246E52BA003BB406 /* quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA36F91246E52BA003BB406 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EA36F93246E52BA003BB406 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				3EA36F95246E52BA003BB406 /* QuizViewController.swift */,
 				3E37219F246E82D90041A774 /* SuccessViewController.swift */,
 				3E3721A1246E8AB30041A774 /* DayViewController.swift */,
+				3E3721A3246ED4930041A774 /* CourseViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				3EA36F94246E52BA003BB406 /* SceneDelegate.swift in Sources */,
 				3E3721A0246E82D90041A774 /* SuccessViewController.swift in Sources */,
 				3E3721A2246E8AB30041A774 /* DayViewController.swift in Sources */,
+				3E3721A4246ED4930041A774 /* CourseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

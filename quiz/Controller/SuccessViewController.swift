@@ -11,11 +11,25 @@ import UIKit
 class SuccessViewController: UIViewController {
     
     var success = "Wow"
+    var questionWord = [""]
+    var userInput = [""]
     @IBOutlet weak var SuccessMessage: UILabel!
+    @IBOutlet weak var questionLabel: UILabel!
+    @IBOutlet weak var userLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         SuccessMessage.text = success
+        var wordyq = ""
+        for qword in questionWord {
+            wordyq.append(qword+"\n")
+        }
+        questionLabel.text = wordyq
+        var wordya = ""
+        for aword in userInput {
+            wordya.append(aword+"\n")
+        }
+        userLabel.text = wordya
 
         
 

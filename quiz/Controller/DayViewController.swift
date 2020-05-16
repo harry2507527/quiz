@@ -7,9 +7,11 @@
 //
 
 import UIKit
-var selectedTitle = ""
-var path = ""
+
 class DayViewController: UIViewController {
+    var selectedTitle = ""
+    var path = ""
+    var course = ""
 
     @IBOutlet var dayButtons: [UIButton]!
     override func viewDidLoad() {
@@ -21,7 +23,7 @@ class DayViewController: UIViewController {
     @IBAction func daySelected(_ sender: UIButton) {
         selectedTitle = sender.titleLabel!.text!
         print(selectedTitle)
-        path = "Books/Book 1/Days/\(selectedTitle)"
+        path = "Books/\(course)/Days/\(selectedTitle)"
         print(path)
         self.performSegue(withIdentifier: "daySelected", sender: self)
     }
